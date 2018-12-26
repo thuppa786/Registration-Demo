@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent"
+
+    android:background="@android:color/holo_orange_light"
+    android:orientation="vertical">
+
+
+    <TextView
+
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+
+        android:text="Enter Your Name:"
+
+        android:textSize="24sp" />
+
+
+    <EditText
+
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+
+        android:ems="10"
+
+        android:inputType="textPersonName" />
+
+
+    <TextView
+
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+
+        android:text="Enter Your Email Address:"
+
+        android:textSize="24sp" />
+
+
+    <EditText
+
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+
+        android:ems="10"
+
+        android:inputType="textEmailAddress" />
+
+
+    <TextView
+
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+
+        android:text="Enter Your Phone No:"
+
+        android:textSize="24sp" />
+
+
+    <EditText
+
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+
+        android:ems="10"
+
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SUBMIT" />
+
+
+</LinearLayout>
